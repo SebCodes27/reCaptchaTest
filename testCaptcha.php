@@ -6,7 +6,7 @@ if(isset($_POST['submit']))
 function CheckCaptcha($userResponse) {
         $fields_string = '';
         $fields = array(
-            'secret' => 6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ4WifJWe
+            'secret' => '6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ4WifJWe'
             'response' => $userResponse
         );
         foreach($fields as $key=>$value)
