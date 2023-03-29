@@ -1,3 +1,11 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <title>reCAPTCHA</title>
+</head>
+<body>
 <FORM ACTION="https://jkorpela.fi/cgi-bin/echo.cgi"
 METHOD="POST">
 <P>
@@ -11,5 +19,11 @@ in several lines.
 <INPUT TYPE="checkbox" NAME="box" VALUE="yes">Check me!
 <P>
 <INPUT TYPE="HIDDEN" NAME="hidden field" VALUE="something">
-<INPUT TYPE="SUBMIT" VALUE="Send">
+<div
+    class="g-recaptcha"
+    data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI">
+</div>
+<INPUT TYPE="SUBMIT" CLASS="g-recaptcha" VALUE="Send">
 </FORM>
+</body>
+</html>
